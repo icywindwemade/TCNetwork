@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		3613F9AD179F422D002E9967 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613F9AC179F422D002E9967 /* Foundation.framework */; };
 		3613F9B2179F422D002E9967 /* TCNetwork.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613F9B1179F422D002E9967 /* TCNetwork.h */; };
-		3613F9B4179F422D002E9967 /* TCNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 3613F9B3179F422D002E9967 /* TCNetwork.m */; };
+		3613F9BC179F4262002E9967 /* HiWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613F9BB179F4261002E9967 /* HiWorld.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +30,8 @@
 		3613F9AC179F422D002E9967 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3613F9B0179F422D002E9967 /* TCNetwork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCNetwork-Prefix.pch"; sourceTree = "<group>"; };
 		3613F9B1179F422D002E9967 /* TCNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCNetwork.h; sourceTree = "<group>"; };
-		3613F9B3179F422D002E9967 /* TCNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TCNetwork.m; sourceTree = "<group>"; };
+		3613F9BA179F4261002E9967 /* HiWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiWorld.h; sourceTree = "<group>"; };
+		3613F9BB179F4261002E9967 /* HiWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HiWorld.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +74,9 @@
 		3613F9AE179F422D002E9967 /* TCNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				3613F9BA179F4261002E9967 /* HiWorld.h */,
+				3613F9BB179F4261002E9967 /* HiWorld.cpp */,
 				3613F9B1179F422D002E9967 /* TCNetwork.h */,
-				3613F9B3179F422D002E9967 /* TCNetwork.m */,
 				3613F9AF179F422D002E9967 /* Supporting Files */,
 			);
 			path = TCNetwork;
@@ -139,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3613F9B4179F422D002E9967 /* TCNetwork.m in Sources */,
+				3613F9BC179F4262002E9967 /* HiWorld.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
