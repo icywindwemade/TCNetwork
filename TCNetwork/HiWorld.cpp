@@ -9,5 +9,9 @@
 #include "HiWorld.h"
 
 HiWorld::HiWorld() {
-    printf("HiWorld ctor\n");
+    printf("############# HiWorld ctor ############# \n");
+}
+
+HiWorld::~HiWorld() {
+    printf("############# HiWorld dstr ############# \n");
 }
