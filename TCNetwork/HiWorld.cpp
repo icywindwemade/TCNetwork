@@ -10,6 +10,7 @@
 
 HiWorld::HiWorld() {
     printf("############# HiWorld ctor ############# \n");
+    print();
 }
 
 HiWorld::~HiWorld() {
