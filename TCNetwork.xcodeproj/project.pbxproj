@@ -7,6 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3613010D179F7123002E9967 /* OnlineHandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130109179F7123002E9967 /* OnlineHandler.cpp */; };
+		3613010E179F7123002E9967 /* OnlineInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613010B179F7123002E9967 /* OnlineInfo.cpp */; };
+		36130114179F7139002E9967 /* PatchInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130110179F7139002E9967 /* PatchInfo.cpp */; };
+		36130115179F7139002E9967 /* UserInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130112179F7139002E9967 /* UserInfo.cpp */; };
+		3613012E179F7154002E9967 /* PacketReceiver_Ranking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130117179F7154002E9967 /* PacketReceiver_Ranking.cpp */; };
+		3613012F179F7154002E9967 /* PacketRecver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130118179F7154002E9967 /* PacketRecver.cpp */; };
+		36130130179F7154002E9967 /* PacketRecver_AuthGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613011A179F7154002E9967 /* PacketRecver_AuthGame.cpp */; };
+		36130131179F7154002E9967 /* PacketRecver_AuthGate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613011B179F7154002E9967 /* PacketRecver_AuthGate.cpp */; };
+		36130132179F7154002E9967 /* PacketRecver_Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613011C179F7154002E9967 /* PacketRecver_Deck.cpp */; };
+		36130133179F7154002E9967 /* PacketRecver_Friend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613011D179F7154002E9967 /* PacketRecver_Friend.cpp */; };
+		36130134179F7154002E9967 /* PacketRecver_GameEnding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613011E179F7154002E9967 /* PacketRecver_GameEnding.cpp */; };
+		36130135179F7154002E9967 /* PacketRecver_GameMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613011F179F7154002E9967 /* PacketRecver_GameMatch.cpp */; };
+		36130136179F7154002E9967 /* PacketRecver_Inventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130120179F7154002E9967 /* PacketRecver_Inventory.cpp */; };
+		36130137179F7154002E9967 /* PacketRecver_MatchEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130121179F7154002E9967 /* PacketRecver_MatchEvent.cpp */; };
+		36130138179F7154002E9967 /* PacketRecver_MatchInvitation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130122179F7154002E9967 /* PacketRecver_MatchInvitation.cpp */; };
+		36130139179F7154002E9967 /* PacketRecver_Profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130123179F7154002E9967 /* PacketRecver_Profile.cpp */; };
+		3613013A179F7154002E9967 /* PacketRecver_Replication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130124179F7154002E9967 /* PacketRecver_Replication.cpp */; };
+		3613013B179F7154002E9967 /* PacketRecver_Store.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130125179F7154002E9967 /* PacketRecver_Store.cpp */; };
+		3613013C179F7154002E9967 /* PacketSender.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130126179F7154002E9967 /* PacketSender.cpp */; };
+		3613013D179F7154002E9967 /* PacketSender_Auth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130128179F7154002E9967 /* PacketSender_Auth.cpp */; };
+		3613013E179F7154002E9967 /* PacketSender_Friend.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130129179F7154002E9967 /* PacketSender_Friend.cpp */; };
+		3613013F179F7154002E9967 /* PacketSender_Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613012A179F7154002E9967 /* PacketSender_Game.cpp */; };
+		36130140179F7154002E9967 /* PacketSender_Inventory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613012B179F7154002E9967 /* PacketSender_Inventory.cpp */; };
+		36130141179F7154002E9967 /* PacketSender_Profile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613012C179F7154002E9967 /* PacketSender_Profile.cpp */; };
+		36130142179F7154002E9967 /* PacketSender_Ranking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613012D179F7154002E9967 /* PacketSender_Ranking.cpp */; };
+		36130179179F7166002E9967 /* FileIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130149179F7166002E9967 /* FileIO.cpp */; };
+		3613017B179F7166002E9967 /* IU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130152179F7166002E9967 /* IU.cpp */; };
+		3613017C179F7166002E9967 /* IURand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130155179F7166002E9967 /* IURand.cpp */; };
+		3613017D179F7166002E9967 /* LocalText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130158179F7166002E9967 /* LocalText.cpp */; };
+		3613017E179F7166002E9967 /* LowLevelStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613015A179F7166002E9967 /* LowLevelStrings.cpp */; };
+		3613017F179F7166002E9967 /* MemoryBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613015E179F7166002E9967 /* MemoryBase.cpp */; };
+		36130180179F7166002E9967 /* Name.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130160179F7166002E9967 /* Name.cpp */; };
+		36130181179F7166002E9967 /* PacketEncrypt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130164179F7166002E9967 /* PacketEncrypt.cpp */; };
+		36130182179F7166002E9967 /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130167179F7166002E9967 /* Random.cpp */; };
+		36130183179F7166002E9967 /* Vec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130175179F7166002E9967 /* Vec.cpp */; };
+		36130184179F7166002E9967 /* Vec3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130177179F7166002E9967 /* Vec3.cpp */; };
+		3613018C179F7175002E9967 /* NetworkConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130186179F7175002E9967 /* NetworkConnection.cpp */; };
+		3613018D179F7175002E9967 /* NetworkManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130188179F7175002E9967 /* NetworkManager.cpp */; };
+		3613018E179F7175002E9967 /* NetworkMonitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613018A179F7175002E9967 /* NetworkMonitor.cpp */; };
+		3613018F179F74D1002E9967 /* NetworkConnection.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130187179F7175002E9967 /* NetworkConnection.h */; };
+		36130190179F74D1002E9967 /* NetworkManager.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130189179F7175002E9967 /* NetworkManager.h */; };
+		36130191179F74D1002E9967 /* NetworkMonitor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613018B179F7175002E9967 /* NetworkMonitor.h */; };
+		36130192179F74F2002E9967 /* PacketRecver.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130119179F7154002E9967 /* PacketRecver.h */; };
+		36130193179F74F2002E9967 /* PacketSender.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130127179F7154002E9967 /* PacketSender.h */; };
+		36130194179F74F2002E9967 /* PatchInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130111179F7139002E9967 /* PatchInfo.h */; };
+		36130195179F74F2002E9967 /* UserInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130113179F7139002E9967 /* UserInfo.h */; };
+		36130196179F74F2002E9967 /* OnlineHandler.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613010A179F7123002E9967 /* OnlineHandler.h */; };
+		36130197179F74F2002E9967 /* OnlineInfo.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613010C179F7123002E9967 /* OnlineInfo.h */; };
+		36130198179F7561002E9967 /* GamePacket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613014D179F7166002E9967 /* GamePacket.h */; };
+		36130199179F7561002E9967 /* GameProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613014E179F7166002E9967 /* GameProtocol.h */; };
+		3613019A179F7561002E9967 /* GatePacket.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613014F179F7166002E9967 /* GatePacket.h */; };
+		3613019B179F7561002E9967 /* GateProtocol.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130150179F7166002E9967 /* GateProtocol.h */; };
+		3613019C179F7561002E9967 /* iOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130151179F7166002E9967 /* iOS.h */; };
+		3613019D179F7561002E9967 /* IU.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130153179F7166002E9967 /* IU.h */; };
+		3613019E179F7561002E9967 /* IUDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130154179F7166002E9967 /* IUDefine.h */; };
 		3613F9B2179F422D002E9967 /* TCNetwork.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613F9B1179F422D002E9967 /* TCNetwork.h */; };
 		3613F9BC179F4262002E9967 /* HiWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613F9BB179F4261002E9967 /* HiWorld.cpp */; };
 		3613FD53179F57FC002E9967 /* HiWorld.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613F9BA179F4261002E9967 /* HiWorld.h */; };
@@ -19,6 +74,22 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				36130198179F7561002E9967 /* GamePacket.h in CopyFiles */,
+				36130199179F7561002E9967 /* GameProtocol.h in CopyFiles */,
+				3613019A179F7561002E9967 /* GatePacket.h in CopyFiles */,
+				3613019B179F7561002E9967 /* GateProtocol.h in CopyFiles */,
+				3613019C179F7561002E9967 /* iOS.h in CopyFiles */,
+				3613019D179F7561002E9967 /* IU.h in CopyFiles */,
+				3613019E179F7561002E9967 /* IUDefine.h in CopyFiles */,
+				36130192179F74F2002E9967 /* PacketRecver.h in CopyFiles */,
+				36130193179F74F2002E9967 /* PacketSender.h in CopyFiles */,
+				36130194179F74F2002E9967 /* PatchInfo.h in CopyFiles */,
+				36130195179F74F2002E9967 /* UserInfo.h in CopyFiles */,
+				36130196179F74F2002E9967 /* OnlineHandler.h in CopyFiles */,
+				36130197179F74F2002E9967 /* OnlineInfo.h in CopyFiles */,
+				3613018F179F74D1002E9967 /* NetworkConnection.h in CopyFiles */,
+				36130190179F74D1002E9967 /* NetworkManager.h in CopyFiles */,
+				36130191179F74D1002E9967 /* NetworkMonitor.h in CopyFiles */,
 				3613FD53179F57FC002E9967 /* HiWorld.h in CopyFiles */,
 				3613F9B2179F422D002E9967 /* TCNetwork.h in CopyFiles */,
 			);
@@ -27,6 +98,94 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		36130109179F7123002E9967 /* OnlineHandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OnlineHandler.cpp; sourceTree = "<group>"; };
+		3613010A179F7123002E9967 /* OnlineHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineHandler.h; sourceTree = "<group>"; };
+		3613010B179F7123002E9967 /* OnlineInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OnlineInfo.cpp; sourceTree = "<group>"; };
+		3613010C179F7123002E9967 /* OnlineInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineInfo.h; sourceTree = "<group>"; };
+		36130110179F7139002E9967 /* PatchInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PatchInfo.cpp; sourceTree = "<group>"; };
+		36130111179F7139002E9967 /* PatchInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatchInfo.h; sourceTree = "<group>"; };
+		36130112179F7139002E9967 /* UserInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UserInfo.cpp; sourceTree = "<group>"; };
+		36130113179F7139002E9967 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		36130117179F7154002E9967 /* PacketReceiver_Ranking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketReceiver_Ranking.cpp; sourceTree = "<group>"; };
+		36130118179F7154002E9967 /* PacketRecver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver.cpp; sourceTree = "<group>"; };
+		36130119179F7154002E9967 /* PacketRecver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketRecver.h; sourceTree = "<group>"; };
+		3613011A179F7154002E9967 /* PacketRecver_AuthGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver_AuthGame.cpp; sourceTree = "<group>"; };
+		3613011B179F7154002E9967 /* PacketRecver_AuthGate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver_AuthGate.cpp; sourceTree = "<group>"; };
+		3613011C179F7154002E9967 /* PacketRecver_Deck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver_Deck.cpp; sourceTree = "<group>"; };
+		3613011D179F7154002E9967 /* PacketRecver_Friend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver_Friend.cpp; sourceTree = "<group>"; };
+		3613011E179F7154002E9967 /* PacketRecver_GameEnding.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver_GameEnding.cpp; sourceTree = "<group>"; };
+		3613011F179F7154002E9967 /* PacketRecver_GameMatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver_GameMatch.cpp; sourceTree = "<group>"; };
+		36130120179F7154002E9967 /* PacketRecver_Inventory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver_Inventory.cpp; sourceTree = "<group>"; };
+		36130121179F7154002E9967 /* PacketRecver_MatchEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver_MatchEvent.cpp; sourceTree = "<group>"; };
+		36130122179F7154002E9967 /* PacketRecver_MatchInvitation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver_MatchInvitation.cpp; sourceTree = "<group>"; };
+		36130123179F7154002E9967 /* PacketRecver_Profile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver_Profile.cpp; sourceTree = "<group>"; };
+		36130124179F7154002E9967 /* PacketRecver_Replication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver_Replication.cpp; sourceTree = "<group>"; };
+		36130125179F7154002E9967 /* PacketRecver_Store.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketRecver_Store.cpp; sourceTree = "<group>"; };
+		36130126179F7154002E9967 /* PacketSender.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketSender.cpp; sourceTree = "<group>"; };
+		36130127179F7154002E9967 /* PacketSender.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketSender.h; sourceTree = "<group>"; };
+		36130128179F7154002E9967 /* PacketSender_Auth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketSender_Auth.cpp; sourceTree = "<group>"; };
+		36130129179F7154002E9967 /* PacketSender_Friend.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketSender_Friend.cpp; sourceTree = "<group>"; };
+		3613012A179F7154002E9967 /* PacketSender_Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketSender_Game.cpp; sourceTree = "<group>"; };
+		3613012B179F7154002E9967 /* PacketSender_Inventory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketSender_Inventory.cpp; sourceTree = "<group>"; };
+		3613012C179F7154002E9967 /* PacketSender_Profile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketSender_Profile.cpp; sourceTree = "<group>"; };
+		3613012D179F7154002E9967 /* PacketSender_Ranking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketSender_Ranking.cpp; sourceTree = "<group>"; };
+		36130144179F7166002E9967 /* Android.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Android.h; sourceTree = "<group>"; };
+		36130145179F7166002E9967 /* AutoSync.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoSync.h; sourceTree = "<group>"; };
+		36130146179F7166002E9967 /* BuildDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildDefine.h; sourceTree = "<group>"; };
+		36130147179F7166002E9967 /* ContainerAllocationPolicies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerAllocationPolicies.h; sourceTree = "<group>"; };
+		36130148179F7166002E9967 /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		36130149179F7166002E9967 /* FileIO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileIO.cpp; sourceTree = "<group>"; };
+		3613014A179F7166002E9967 /* FileIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileIO.h; sourceTree = "<group>"; };
+		3613014D179F7166002E9967 /* GamePacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePacket.h; sourceTree = "<group>"; };
+		3613014E179F7166002E9967 /* GameProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameProtocol.h; sourceTree = "<group>"; };
+		3613014F179F7166002E9967 /* GatePacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GatePacket.h; sourceTree = "<group>"; };
+		36130150179F7166002E9967 /* GateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GateProtocol.h; sourceTree = "<group>"; };
+		36130151179F7166002E9967 /* iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOS.h; sourceTree = "<group>"; };
+		36130152179F7166002E9967 /* IU.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IU.cpp; sourceTree = "<group>"; };
+		36130153179F7166002E9967 /* IU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IU.h; sourceTree = "<group>"; };
+		36130154179F7166002E9967 /* IUDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IUDefine.h; sourceTree = "<group>"; };
+		36130155179F7166002E9967 /* IURand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IURand.cpp; sourceTree = "<group>"; };
+		36130156179F7166002E9967 /* IURand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IURand.h; sourceTree = "<group>"; };
+		36130157179F7166002E9967 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		36130158179F7166002E9967 /* LocalText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalText.cpp; sourceTree = "<group>"; };
+		36130159179F7166002E9967 /* LocalText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalText.h; sourceTree = "<group>"; };
+		3613015A179F7166002E9967 /* LowLevelStrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LowLevelStrings.cpp; sourceTree = "<group>"; };
+		3613015B179F7166002E9967 /* LowLevelStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowLevelStrings.h; sourceTree = "<group>"; };
+		3613015C179F7166002E9967 /* MallocAnsi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallocAnsi.h; sourceTree = "<group>"; };
+		3613015D179F7166002E9967 /* MathBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathBase.h; sourceTree = "<group>"; };
+		3613015E179F7166002E9967 /* MemoryBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemoryBase.cpp; sourceTree = "<group>"; };
+		3613015F179F7166002E9967 /* MemoryBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryBase.h; sourceTree = "<group>"; };
+		36130160179F7166002E9967 /* Name.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Name.cpp; sourceTree = "<group>"; };
+		36130161179F7166002E9967 /* Name.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Name.h; sourceTree = "<group>"; };
+		36130162179F7166002E9967 /* OnlineDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnlineDefine.h; sourceTree = "<group>"; };
+		36130163179F7166002E9967 /* Packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Packet.h; sourceTree = "<group>"; };
+		36130164179F7166002E9967 /* PacketEncrypt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PacketEncrypt.cpp; sourceTree = "<group>"; };
+		36130165179F7166002E9967 /* PacketEncrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PacketEncrypt.h; sourceTree = "<group>"; };
+		36130166179F7166002E9967 /* PredefinedNames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredefinedNames.h; sourceTree = "<group>"; };
+		36130167179F7166002E9967 /* Random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
+		36130168179F7166002E9967 /* Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Random.h; sourceTree = "<group>"; };
+		36130169179F7166002E9967 /* ServerDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDefine.h; sourceTree = "<group>"; };
+		3613016A179F7166002E9967 /* TArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TArray.h; sourceTree = "<group>"; };
+		3613016B179F7166002E9967 /* TBitArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBitArray.h; sourceTree = "<group>"; };
+		3613016C179F7166002E9967 /* Telegram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Telegram.h; sourceTree = "<group>"; };
+		3613016D179F7166002E9967 /* TemplateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemplateBase.h; sourceTree = "<group>"; };
+		3613016E179F7166002E9967 /* TMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMap.h; sourceTree = "<group>"; };
+		3613016F179F7166002E9967 /* TSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSet.h; sourceTree = "<group>"; };
+		36130170179F7166002E9967 /* TSorting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSorting.h; sourceTree = "<group>"; };
+		36130171179F7166002E9967 /* TSparseArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSparseArray.h; sourceTree = "<group>"; };
+		36130172179F7166002E9967 /* TypeDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeDefine.h; sourceTree = "<group>"; };
+		36130173179F7166002E9967 /* TypeTraits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeTraits.h; sourceTree = "<group>"; };
+		36130174179F7166002E9967 /* UnionDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionDefine.h; sourceTree = "<group>"; };
+		36130175179F7166002E9967 /* Vec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vec.cpp; sourceTree = "<group>"; };
+		36130176179F7166002E9967 /* Vec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vec.h; sourceTree = "<group>"; };
+		36130177179F7166002E9967 /* Vec3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Vec3.cpp; sourceTree = "<group>"; };
+		36130178179F7166002E9967 /* Vec3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vec3.h; sourceTree = "<group>"; };
+		36130186179F7175002E9967 /* NetworkConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkConnection.cpp; sourceTree = "<group>"; };
+		36130187179F7175002E9967 /* NetworkConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConnection.h; sourceTree = "<group>"; };
+		36130188179F7175002E9967 /* NetworkManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkManager.cpp; sourceTree = "<group>"; };
+		36130189179F7175002E9967 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		3613018A179F7175002E9967 /* NetworkMonitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkMonitor.cpp; sourceTree = "<group>"; };
+		3613018B179F7175002E9967 /* NetworkMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkMonitor.h; sourceTree = "<group>"; };
 		3613F9A9179F422D002E9967 /* libTCNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTCNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3613F9B0179F422D002E9967 /* TCNetwork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCNetwork-Prefix.pch"; sourceTree = "<group>"; };
 		3613F9B1179F422D002E9967 /* TCNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCNetwork.h; sourceTree = "<group>"; };
@@ -45,6 +204,129 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36130108179F7123002E9967 /* Online */ = {
+			isa = PBXGroup;
+			children = (
+				36130109179F7123002E9967 /* OnlineHandler.cpp */,
+				3613010A179F7123002E9967 /* OnlineHandler.h */,
+				3613010B179F7123002E9967 /* OnlineInfo.cpp */,
+				3613010C179F7123002E9967 /* OnlineInfo.h */,
+			);
+			path = Online;
+			sourceTree = "<group>";
+		};
+		3613010F179F7138002E9967 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				36130110179F7139002E9967 /* PatchInfo.cpp */,
+				36130111179F7139002E9967 /* PatchInfo.h */,
+				36130112179F7139002E9967 /* UserInfo.cpp */,
+				36130113179F7139002E9967 /* UserInfo.h */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		36130116179F7154002E9967 /* PacketRxTx */ = {
+			isa = PBXGroup;
+			children = (
+				36130117179F7154002E9967 /* PacketReceiver_Ranking.cpp */,
+				36130118179F7154002E9967 /* PacketRecver.cpp */,
+				36130119179F7154002E9967 /* PacketRecver.h */,
+				3613011A179F7154002E9967 /* PacketRecver_AuthGame.cpp */,
+				3613011B179F7154002E9967 /* PacketRecver_AuthGate.cpp */,
+				3613011C179F7154002E9967 /* PacketRecver_Deck.cpp */,
+				3613011D179F7154002E9967 /* PacketRecver_Friend.cpp */,
+				3613011E179F7154002E9967 /* PacketRecver_GameEnding.cpp */,
+				3613011F179F7154002E9967 /* PacketRecver_GameMatch.cpp */,
+				36130120179F7154002E9967 /* PacketRecver_Inventory.cpp */,
+				36130121179F7154002E9967 /* PacketRecver_MatchEvent.cpp */,
+				36130122179F7154002E9967 /* PacketRecver_MatchInvitation.cpp */,
+				36130123179F7154002E9967 /* PacketRecver_Profile.cpp */,
+				36130124179F7154002E9967 /* PacketRecver_Replication.cpp */,
+				36130125179F7154002E9967 /* PacketRecver_Store.cpp */,
+				36130126179F7154002E9967 /* PacketSender.cpp */,
+				36130127179F7154002E9967 /* PacketSender.h */,
+				36130128179F7154002E9967 /* PacketSender_Auth.cpp */,
+				36130129179F7154002E9967 /* PacketSender_Friend.cpp */,
+				3613012A179F7154002E9967 /* PacketSender_Game.cpp */,
+				3613012B179F7154002E9967 /* PacketSender_Inventory.cpp */,
+				3613012C179F7154002E9967 /* PacketSender_Profile.cpp */,
+				3613012D179F7154002E9967 /* PacketSender_Ranking.cpp */,
+			);
+			path = PacketRxTx;
+			sourceTree = "<group>";
+		};
+		36130143179F7166002E9967 /* Inc */ = {
+			isa = PBXGroup;
+			children = (
+				36130144179F7166002E9967 /* Android.h */,
+				36130145179F7166002E9967 /* AutoSync.h */,
+				36130146179F7166002E9967 /* BuildDefine.h */,
+				36130147179F7166002E9967 /* ContainerAllocationPolicies.h */,
+				36130148179F7166002E9967 /* Core.h */,
+				36130149179F7166002E9967 /* FileIO.cpp */,
+				3613014A179F7166002E9967 /* FileIO.h */,
+				3613014D179F7166002E9967 /* GamePacket.h */,
+				3613014E179F7166002E9967 /* GameProtocol.h */,
+				3613014F179F7166002E9967 /* GatePacket.h */,
+				36130150179F7166002E9967 /* GateProtocol.h */,
+				36130151179F7166002E9967 /* iOS.h */,
+				36130152179F7166002E9967 /* IU.cpp */,
+				36130153179F7166002E9967 /* IU.h */,
+				36130154179F7166002E9967 /* IUDefine.h */,
+				36130155179F7166002E9967 /* IURand.cpp */,
+				36130156179F7166002E9967 /* IURand.h */,
+				36130157179F7166002E9967 /* List.h */,
+				36130158179F7166002E9967 /* LocalText.cpp */,
+				36130159179F7166002E9967 /* LocalText.h */,
+				3613015A179F7166002E9967 /* LowLevelStrings.cpp */,
+				3613015B179F7166002E9967 /* LowLevelStrings.h */,
+				3613015C179F7166002E9967 /* MallocAnsi.h */,
+				3613015D179F7166002E9967 /* MathBase.h */,
+				3613015E179F7166002E9967 /* MemoryBase.cpp */,
+				3613015F179F7166002E9967 /* MemoryBase.h */,
+				36130160179F7166002E9967 /* Name.cpp */,
+				36130161179F7166002E9967 /* Name.h */,
+				36130162179F7166002E9967 /* OnlineDefine.h */,
+				36130163179F7166002E9967 /* Packet.h */,
+				36130164179F7166002E9967 /* PacketEncrypt.cpp */,
+				36130165179F7166002E9967 /* PacketEncrypt.h */,
+				36130166179F7166002E9967 /* PredefinedNames.h */,
+				36130167179F7166002E9967 /* Random.cpp */,
+				36130168179F7166002E9967 /* Random.h */,
+				36130169179F7166002E9967 /* ServerDefine.h */,
+				3613016A179F7166002E9967 /* TArray.h */,
+				3613016B179F7166002E9967 /* TBitArray.h */,
+				3613016C179F7166002E9967 /* Telegram.h */,
+				3613016D179F7166002E9967 /* TemplateBase.h */,
+				3613016E179F7166002E9967 /* TMap.h */,
+				3613016F179F7166002E9967 /* TSet.h */,
+				36130170179F7166002E9967 /* TSorting.h */,
+				36130171179F7166002E9967 /* TSparseArray.h */,
+				36130172179F7166002E9967 /* TypeDefine.h */,
+				36130173179F7166002E9967 /* TypeTraits.h */,
+				36130174179F7166002E9967 /* UnionDefine.h */,
+				36130175179F7166002E9967 /* Vec.cpp */,
+				36130176179F7166002E9967 /* Vec.h */,
+				36130177179F7166002E9967 /* Vec3.cpp */,
+				36130178179F7166002E9967 /* Vec3.h */,
+			);
+			path = Inc;
+			sourceTree = "<group>";
+		};
+		36130185179F7175002E9967 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				36130186179F7175002E9967 /* NetworkConnection.cpp */,
+				36130187179F7175002E9967 /* NetworkConnection.h */,
+				36130188179F7175002E9967 /* NetworkManager.cpp */,
+				36130189179F7175002E9967 /* NetworkManager.h */,
+				3613018A179F7175002E9967 /* NetworkMonitor.cpp */,
+				3613018B179F7175002E9967 /* NetworkMonitor.h */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
 		3613F9A0179F422D002E9967 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +354,11 @@
 		3613F9AE179F422D002E9967 /* TCNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				36130185179F7175002E9967 /* Engine */,
+				36130143179F7166002E9967 /* Inc */,
+				36130116179F7154002E9967 /* PacketRxTx */,
+				3613010F179F7138002E9967 /* User */,
+				36130108179F7123002E9967 /* Online */,
 				3613F9BA179F4261002E9967 /* HiWorld.h */,
 				3613F9BB179F4261002E9967 /* HiWorld.cpp */,
 				3613F9B1179F422D002E9967 /* TCNetwork.h */,
@@ -140,6 +427,45 @@
 			buildActionMask = 2147483647;
 			files = (
 				3613F9BC179F4262002E9967 /* HiWorld.cpp in Sources */,
+				3613010D179F7123002E9967 /* OnlineHandler.cpp in Sources */,
+				3613010E179F7123002E9967 /* OnlineInfo.cpp in Sources */,
+				36130114179F7139002E9967 /* PatchInfo.cpp in Sources */,
+				36130115179F7139002E9967 /* UserInfo.cpp in Sources */,
+				3613012E179F7154002E9967 /* PacketReceiver_Ranking.cpp in Sources */,
+				3613012F179F7154002E9967 /* PacketRecver.cpp in Sources */,
+				36130130179F7154002E9967 /* PacketRecver_AuthGame.cpp in Sources */,
+				36130131179F7154002E9967 /* PacketRecver_AuthGate.cpp in Sources */,
+				36130132179F7154002E9967 /* PacketRecver_Deck.cpp in Sources */,
+				36130133179F7154002E9967 /* PacketRecver_Friend.cpp in Sources */,
+				36130134179F7154002E9967 /* PacketRecver_GameEnding.cpp in Sources */,
+				36130135179F7154002E9967 /* PacketRecver_GameMatch.cpp in Sources */,
+				36130136179F7154002E9967 /* PacketRecver_Inventory.cpp in Sources */,
+				36130137179F7154002E9967 /* PacketRecver_MatchEvent.cpp in Sources */,
+				36130138179F7154002E9967 /* PacketRecver_MatchInvitation.cpp in Sources */,
+				36130139179F7154002E9967 /* PacketRecver_Profile.cpp in Sources */,
+				3613013A179F7154002E9967 /* PacketRecver_Replication.cpp in Sources */,
+				3613013B179F7154002E9967 /* PacketRecver_Store.cpp in Sources */,
+				3613013C179F7154002E9967 /* PacketSender.cpp in Sources */,
+				3613013D179F7154002E9967 /* PacketSender_Auth.cpp in Sources */,
+				3613013E179F7154002E9967 /* PacketSender_Friend.cpp in Sources */,
+				3613013F179F7154002E9967 /* PacketSender_Game.cpp in Sources */,
+				36130140179F7154002E9967 /* PacketSender_Inventory.cpp in Sources */,
+				36130141179F7154002E9967 /* PacketSender_Profile.cpp in Sources */,
+				36130142179F7154002E9967 /* PacketSender_Ranking.cpp in Sources */,
+				36130179179F7166002E9967 /* FileIO.cpp in Sources */,
+				3613017B179F7166002E9967 /* IU.cpp in Sources */,
+				3613017C179F7166002E9967 /* IURand.cpp in Sources */,
+				3613017D179F7166002E9967 /* LocalText.cpp in Sources */,
+				3613017E179F7166002E9967 /* LowLevelStrings.cpp in Sources */,
+				3613017F179F7166002E9967 /* MemoryBase.cpp in Sources */,
+				36130180179F7166002E9967 /* Name.cpp in Sources */,
+				36130181179F7166002E9967 /* PacketEncrypt.cpp in Sources */,
+				36130182179F7166002E9967 /* Random.cpp in Sources */,
+				36130183179F7166002E9967 /* Vec.cpp in Sources */,
+				36130184179F7166002E9967 /* Vec3.cpp in Sources */,
+				3613018C179F7175002E9967 /* NetworkConnection.cpp in Sources */,
+				3613018D179F7175002E9967 /* NetworkManager.cpp in Sources */,
+				3613018E179F7175002E9967 /* NetworkMonitor.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +531,11 @@
 				DSTROOT = /tmp/TCNetwork.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TCNetwork/TCNetwork-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"IOS=1",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -217,6 +548,7 @@
 				DSTROOT = /tmp/TCNetwork.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TCNetwork/TCNetwork-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "IOS=1";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
