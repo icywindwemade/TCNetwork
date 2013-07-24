@@ -92,8 +92,9 @@ RPHI( PTCL_EVENT_MATCH_COMPLETE		)
 
 			OLEndedMatching();
 
-			if( !IsOpenedAlertMessage() ) 
+			/* if( !IsOpenedAlertMessage() )
 				ShowAlertMessage( EMBA_OK, EMCT_BackScene, IUGetLocalText( L"info_battle_error_match" ) );
+             */
 
 			return;
 		}

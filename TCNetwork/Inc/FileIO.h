@@ -9,7 +9,7 @@ public:
 	CFileIO();
 	virtual ~CFileIO();
 
-	virtual bool Open( const std::string &filename );
+//	virtual bool Open( const std::string &filename );
 	virtual bool OpenCurrentFile( const std::string &filename );
 	virtual int Read( char *ptr, int len );
 	virtual int ReadInt();

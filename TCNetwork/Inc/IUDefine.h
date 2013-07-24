@@ -174,12 +174,12 @@ extern CLocalText		g_LocalText;
 #define UNREFERENCED_PARAMETER(x)		//(x)
 //#include "IU.h"
 #define GL_CLAMP		GL_CLAMP_TO_EDGE
-
+/*
 class CLocalText;
 extern CLocalText		g_LocalText;
-
+*/
 #endif	// WIN32
-
+/*
 const WCHAR *GetLocalTextArg2( const WCHAR *, const WCHAR*, int i );
 #define IUGetLocalTextArg2(x, y, i) GetLocalTextArg2( x, y, i )
 
@@ -190,6 +190,7 @@ const WCHAR *GetLocalText( const WCHAR * );
 #define IUGetLocalText(x)	GetLocalText( x )
 const int GetLocalization();
 #define IUGetLocalization()		GetLocalization()
+ */
 #define IUCRASH()				{char *temp = 0; *temp = 0; }			
 
 extern void GetDeviceResolution( int& OutWidth, int& OutHeight );

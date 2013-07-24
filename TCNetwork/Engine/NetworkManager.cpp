@@ -9,6 +9,8 @@
 #pragma warning( push )
 #pragma warning( disable : 4127 )   // while( TRUE ) : TRUE is const type warning
 
+extern void LogPrintf( const char *pszFmt, ... );
+
 bool CompareSyncFrame( NNetPacket* A, NNetPacket* B )
 {
 	return ( A->Frame < B->Frame );
@@ -1173,46 +1175,4 @@ void NNetworkManager::ResetSendSyncPackets()
 
 #pragma warning( pop ) // 4127
 
-void LogPrintf( const char *pszFmt, ... )
-{
-#if !FINAL_RELEASE
-    
-#if ANDROID
-	char szBuf[1024];
-	va_list argList;
-	va_start( argList, pszFmt);
-	vsnprintf( szBuf, 1024, pszFmt, argList );
-	va_end( argList );
-    
-	JniUtil::LOGPrintf( szBuf );
-    
-#elif IOS
-	char szBuf[1024];
-	va_list argList;
-	va_start( argList, pszFmt);
-	vsnprintf( szBuf, 1024, pszFmt, argList );
-	va_end( argList );
-    
-    printf( "%s", szBuf );
-    
 
-    
-#else // WIN32
-	char szBuf[1024];
-	va_list argList;
-	va_start( argList, pszFmt);
-	vsnprintf( szBuf, 1024, pszFmt, argList );
-	va_end( argList );
-    
-	int pos = strlen(szBuf);
-	if( szBuf[pos -1] != '\n' )
-	{
-		szBuf[pos] = '\n';
-		szBuf[pos+1] = 0;
-        
-	}
-	OutputDebugString( szBuf );
-#endif	// ANDROID
-    
-#endif // !FINAL_RELEASE
-}

@@ -13,7 +13,7 @@ CFileIO::~CFileIO()
 {
 	SAFE_DELETE_ARRAY( m_Buf );
 }
-
+/*
 bool CFileIO::Open( const std::string &filename )
 {
 	SAFE_DELETE_ARRAY( m_Buf );
@@ -36,7 +36,7 @@ bool CFileIO::Open( const std::string &filename )
 
 	m_iOff = 0;
 	return true;
-}
+} */
 
 bool CFileIO::OpenCurrentFile( const std::string &filename )
 {

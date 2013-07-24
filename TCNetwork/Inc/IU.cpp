@@ -3,7 +3,7 @@
 #include "IUDefine.h"
 #include <stdlib.h>
 #include "IU.h"
-#include "LocalText.h"
+//#include "LocalText.h"
 
 #if WIN32
 #include <tchar.h>
@@ -166,7 +166,7 @@ void IU::UpdateForFPS( int delta )
 		m_fFPS = 1000.f / total *i;
 	}
 }
-/*
+
 #if WIN32
 DWORD IU::GetAccurateTick()
 {
@@ -190,15 +190,19 @@ DWORD IU::GetCurTick()
 #else	// IOS
 double IU::GetAccurateTick()
 {
-	return CFAbsoluteTimeGetCurrent()* 1000.0;
+	//return CFAbsoluteTimeGetCurrent()* 1000.0;
+    struct timeval tv;
+	gettimeofday( &tv, NULL );
+	return tv.tv_sec * 1000 + tv.tv_usec / 1000;
 }
+
 double IU::GetCurTick()
 {
 	return m_CurTime;
 }
 #endif	// WIN32
 
-*/
+
 int ParseString( char **szString, char *szOut )
 {
 	for(; **szString && strchr("\n\r\t \0", **szString); (*szString)++) ;
@@ -1010,7 +1014,7 @@ std::wstring replaceAll(const std::wstring &str, const std::wstring &pattern, co
 
 	return result;
 }
-
+/*
 const WCHAR *GetLocalTextArg2( const WCHAR * szKey, const WCHAR* szString, int i )
 {
 #if WIN32 || IOS
@@ -1134,7 +1138,7 @@ const WCHAR * GetLocalText( const WCHAR *szKey )
 	return (wchar_t*)[strText cStringUsingEncoding: NSUTF32StringEncoding];
 #endif	// WIN32 || IOS
 }
-/*
+
 void GetDeviceResolution( int& OutWidth, int& OutHeight )
 {
 	IUGameManager().GetUIManager()->GetResolution( OutWidth, OutHeight );
@@ -1295,7 +1299,7 @@ PFNGLFRAMEBUFFERTEXTURE2DEXTPROC		glFramebufferTexture2DOES;
 PFNGLCHECKFRAMEBUFFERSTATUSEXTPROC		glCheckFramebufferStatusOES;
 #endif	// WIN32
 
-CLocalText		g_LocalText;
+// CLocalText		g_LocalText;
 
 
 void LogPrintf( const char *pszFmt, ... )

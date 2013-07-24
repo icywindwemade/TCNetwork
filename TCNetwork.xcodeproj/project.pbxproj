@@ -35,7 +35,6 @@
 		36130179179F7166002E9967 /* FileIO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130149179F7166002E9967 /* FileIO.cpp */; };
 		3613017B179F7166002E9967 /* IU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130152179F7166002E9967 /* IU.cpp */; };
 		3613017C179F7166002E9967 /* IURand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130155179F7166002E9967 /* IURand.cpp */; };
-		3613017D179F7166002E9967 /* LocalText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130158179F7166002E9967 /* LocalText.cpp */; };
 		3613017E179F7166002E9967 /* LowLevelStrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613015A179F7166002E9967 /* LowLevelStrings.cpp */; };
 		3613017F179F7166002E9967 /* MemoryBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613015E179F7166002E9967 /* MemoryBase.cpp */; };
 		36130180179F7166002E9967 /* Name.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 36130160179F7166002E9967 /* Name.cpp */; };
@@ -62,6 +61,34 @@
 		3613019C179F7561002E9967 /* iOS.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130151179F7166002E9967 /* iOS.h */; };
 		3613019D179F7561002E9967 /* IU.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130153179F7166002E9967 /* IU.h */; };
 		3613019E179F7561002E9967 /* IUDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130154179F7166002E9967 /* IUDefine.h */; };
+		361301B717A05DD2002E9967 /* OnlineDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130162179F7166002E9967 /* OnlineDefine.h */; };
+		361301B817A05E70002E9967 /* Core.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130148179F7166002E9967 /* Core.h */; };
+		361301B917A05E89002E9967 /* MemoryBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613015F179F7166002E9967 /* MemoryBase.h */; };
+		361301BA17A05EA3002E9967 /* LowLevelStrings.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613015B179F7166002E9967 /* LowLevelStrings.h */; };
+		361301BB17A05EB9002E9967 /* TypeTraits.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130173179F7166002E9967 /* TypeTraits.h */; };
+		361301BC17A05ECA002E9967 /* TemplateBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613016D179F7166002E9967 /* TemplateBase.h */; };
+		361301BD17A05EDC002E9967 /* MallocAnsi.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613015C179F7166002E9967 /* MallocAnsi.h */; };
+		361301BE17A05EE9002E9967 /* ContainerAllocationPolicies.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130147179F7166002E9967 /* ContainerAllocationPolicies.h */; };
+		361301BF17A05F05002E9967 /* Name.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130161179F7166002E9967 /* Name.h */; };
+		361301C017A05F05002E9967 /* Packet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130163179F7166002E9967 /* Packet.h */; };
+		361301C117A05F05002E9967 /* PredefinedNames.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130166179F7166002E9967 /* PredefinedNames.h */; };
+		361301C217A05F05002E9967 /* Random.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130168179F7166002E9967 /* Random.h */; };
+		361301C317A05F05002E9967 /* ServerDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130169179F7166002E9967 /* ServerDefine.h */; };
+		361301C417A05F05002E9967 /* TArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613016A179F7166002E9967 /* TArray.h */; };
+		361301C517A05F05002E9967 /* TBitArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613016B179F7166002E9967 /* TBitArray.h */; };
+		361301C617A05F1E002E9967 /* TMap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613016E179F7166002E9967 /* TMap.h */; };
+		361301C717A05F1E002E9967 /* TSet.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613016F179F7166002E9967 /* TSet.h */; };
+		361301C817A05F1E002E9967 /* TSorting.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130170179F7166002E9967 /* TSorting.h */; };
+		361301C917A05F1E002E9967 /* TSparseArray.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130171179F7166002E9967 /* TSparseArray.h */; };
+		361301CA17A05F1E002E9967 /* TypeDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130172179F7166002E9967 /* TypeDefine.h */; };
+		361301CB17A05F1E002E9967 /* UnionDefine.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130174179F7166002E9967 /* UnionDefine.h */; };
+		361301CC17A05F1E002E9967 /* Vec.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130176179F7166002E9967 /* Vec.h */; };
+		361301CD17A05F1E002E9967 /* Vec3.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130178179F7166002E9967 /* Vec3.h */; };
+		361301CE17A05F42002E9967 /* IURand.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130156179F7166002E9967 /* IURand.h */; };
+		361301CF17A05F42002E9967 /* List.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130157179F7166002E9967 /* List.h */; };
+		361301D017A05F42002E9967 /* MathBase.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613015D179F7166002E9967 /* MathBase.h */; };
+		361301D117A05F42002E9967 /* PacketEncrypt.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130165179F7166002E9967 /* PacketEncrypt.h */; };
+		361301D217A05F42002E9967 /* Telegram.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613016C179F7166002E9967 /* Telegram.h */; };
 		3613F9B2179F422D002E9967 /* TCNetwork.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613F9B1179F422D002E9967 /* TCNetwork.h */; };
 		3613F9BC179F4262002E9967 /* HiWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613F9BB179F4261002E9967 /* HiWorld.cpp */; };
 		3613FD53179F57FC002E9967 /* HiWorld.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613F9BA179F4261002E9967 /* HiWorld.h */; };
@@ -74,6 +101,34 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				361301CE17A05F42002E9967 /* IURand.h in CopyFiles */,
+				361301CF17A05F42002E9967 /* List.h in CopyFiles */,
+				361301D017A05F42002E9967 /* MathBase.h in CopyFiles */,
+				361301D117A05F42002E9967 /* PacketEncrypt.h in CopyFiles */,
+				361301D217A05F42002E9967 /* Telegram.h in CopyFiles */,
+				361301C617A05F1E002E9967 /* TMap.h in CopyFiles */,
+				361301C717A05F1E002E9967 /* TSet.h in CopyFiles */,
+				361301C817A05F1E002E9967 /* TSorting.h in CopyFiles */,
+				361301C917A05F1E002E9967 /* TSparseArray.h in CopyFiles */,
+				361301CA17A05F1E002E9967 /* TypeDefine.h in CopyFiles */,
+				361301CB17A05F1E002E9967 /* UnionDefine.h in CopyFiles */,
+				361301CC17A05F1E002E9967 /* Vec.h in CopyFiles */,
+				361301CD17A05F1E002E9967 /* Vec3.h in CopyFiles */,
+				361301BF17A05F05002E9967 /* Name.h in CopyFiles */,
+				361301C017A05F05002E9967 /* Packet.h in CopyFiles */,
+				361301C117A05F05002E9967 /* PredefinedNames.h in CopyFiles */,
+				361301C217A05F05002E9967 /* Random.h in CopyFiles */,
+				361301C317A05F05002E9967 /* ServerDefine.h in CopyFiles */,
+				361301C417A05F05002E9967 /* TArray.h in CopyFiles */,
+				361301C517A05F05002E9967 /* TBitArray.h in CopyFiles */,
+				361301BE17A05EE9002E9967 /* ContainerAllocationPolicies.h in CopyFiles */,
+				361301BD17A05EDC002E9967 /* MallocAnsi.h in CopyFiles */,
+				361301BC17A05ECA002E9967 /* TemplateBase.h in CopyFiles */,
+				361301BB17A05EB9002E9967 /* TypeTraits.h in CopyFiles */,
+				361301BA17A05EA3002E9967 /* LowLevelStrings.h in CopyFiles */,
+				361301B917A05E89002E9967 /* MemoryBase.h in CopyFiles */,
+				361301B817A05E70002E9967 /* Core.h in CopyFiles */,
+				361301B717A05DD2002E9967 /* OnlineDefine.h in CopyFiles */,
 				36130198179F7561002E9967 /* GamePacket.h in CopyFiles */,
 				36130199179F7561002E9967 /* GameProtocol.h in CopyFiles */,
 				3613019A179F7561002E9967 /* GatePacket.h in CopyFiles */,
@@ -147,8 +202,6 @@
 		36130155179F7166002E9967 /* IURand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IURand.cpp; sourceTree = "<group>"; };
 		36130156179F7166002E9967 /* IURand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IURand.h; sourceTree = "<group>"; };
 		36130157179F7166002E9967 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
-		36130158179F7166002E9967 /* LocalText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalText.cpp; sourceTree = "<group>"; };
-		36130159179F7166002E9967 /* LocalText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalText.h; sourceTree = "<group>"; };
 		3613015A179F7166002E9967 /* LowLevelStrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LowLevelStrings.cpp; sourceTree = "<group>"; };
 		3613015B179F7166002E9967 /* LowLevelStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowLevelStrings.h; sourceTree = "<group>"; };
 		3613015C179F7166002E9967 /* MallocAnsi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MallocAnsi.h; sourceTree = "<group>"; };
@@ -277,8 +330,6 @@
 				36130155179F7166002E9967 /* IURand.cpp */,
 				36130156179F7166002E9967 /* IURand.h */,
 				36130157179F7166002E9967 /* List.h */,
-				36130158179F7166002E9967 /* LocalText.cpp */,
-				36130159179F7166002E9967 /* LocalText.h */,
 				3613015A179F7166002E9967 /* LowLevelStrings.cpp */,
 				3613015B179F7166002E9967 /* LowLevelStrings.h */,
 				3613015C179F7166002E9967 /* MallocAnsi.h */,
@@ -455,7 +506,6 @@
 				36130179179F7166002E9967 /* FileIO.cpp in Sources */,
 				3613017B179F7166002E9967 /* IU.cpp in Sources */,
 				3613017C179F7166002E9967 /* IURand.cpp in Sources */,
-				3613017D179F7166002E9967 /* LocalText.cpp in Sources */,
 				3613017E179F7166002E9967 /* LowLevelStrings.cpp in Sources */,
 				3613017F179F7166002E9967 /* MemoryBase.cpp in Sources */,
 				36130180179F7166002E9967 /* Name.cpp in Sources */,
