@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3613F9B2179F422D002E9967 /* TCNetwork.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613F9B1179F422D002E9967 /* TCNetwork.h */; };
 		3613F9BC179F4262002E9967 /* HiWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613F9BB179F4261002E9967 /* HiWorld.cpp */; };
+		3613FD53179F57FC002E9967 /* HiWorld.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613F9BA179F4261002E9967 /* HiWorld.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,6 +19,7 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
+				3613FD53179F57FC002E9967 /* HiWorld.h in CopyFiles */,
 				3613F9B2179F422D002E9967 /* TCNetwork.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
