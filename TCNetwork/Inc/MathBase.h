@@ -7,7 +7,7 @@
 #define __MATHBASE_H__
 
 #include "Core.h"
-#include <math.h>
+//#include <math.h>
 
 // Constants.
 #undef	PI
@@ -22,6 +22,8 @@
 
 // Magic numbers for numerical precision.
 #define DELTA			(0.00001f)
+
+#define ABS(x)          (x<0?-x:x)
 
 //#ifndef INDEX_NONE
 //#define INDEX_NONE	-1
@@ -265,7 +267,7 @@ struct FVector2D
 	// Error-tolerant comparison.
 	bool Equals(const FVector2D& V, float Tolerance = KINDA_SMALL_NUMBER) const
 	{
-		return abs(X - V.X) < Tolerance && abs(Y - V.Y) < Tolerance;
+		return  ABS(X - V.X) < Tolerance && ABS(Y - V.Y) < Tolerance;
 	}
 	
 	// Unary operators.
@@ -346,7 +348,7 @@ struct FVector2D
 	
 	float GetAbsMax() const
 	{
-		return Max(abs(X), abs(Y));
+		return Max(ABS(X), ABS(Y));
 	}
 	
 	float GetMin() const
@@ -394,7 +396,7 @@ struct FVector2D
 	
 	int IsNearlyZero(float Tolerance = KINDA_SMALL_NUMBER) const
 	{
-		return abs(X) < Tolerance && abs(Y) < Tolerance;
+		return ABS(X) < Tolerance && ABS(Y) < Tolerance;
 	}
 	
 	bool IsZero() const
