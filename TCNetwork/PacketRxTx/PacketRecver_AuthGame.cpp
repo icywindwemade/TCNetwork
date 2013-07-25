@@ -19,7 +19,6 @@
 
 
 
-
 //##############################################################################################
 // Authentication
 //##############################################################################################
@@ -54,7 +53,7 @@ RPHI( PTCL_ANS_GAME_LOGIN					)
 		// Request all info
 		GOnlineInfo->DidLoaded( false );
 
-/*
+#ifndef TEST_DRIVER
  
 		// Start Ping Check
 		GOnlineInfo->StartPingTime( GNetworkManager->GetNetworkTime() );
@@ -62,7 +61,8 @@ RPHI( PTCL_ANS_GAME_LOGIN					)
 		// Write member to file
         OLWriteSaveMember();
 
-		OLLoadDataAll(); */
+		OLLoadDataAll();
+#endif
 	}
 	else
 	{
