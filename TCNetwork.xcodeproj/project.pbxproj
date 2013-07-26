@@ -90,8 +90,6 @@
 		361301D117A05F42002E9967 /* PacketEncrypt.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 36130165179F7166002E9967 /* PacketEncrypt.h */; };
 		361301D217A05F42002E9967 /* Telegram.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613016C179F7166002E9967 /* Telegram.h */; };
 		3613F9B2179F422D002E9967 /* TCNetwork.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613F9B1179F422D002E9967 /* TCNetwork.h */; };
-		3613F9BC179F4262002E9967 /* HiWorld.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3613F9BB179F4261002E9967 /* HiWorld.cpp */; };
-		3613FD53179F57FC002E9967 /* HiWorld.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3613F9BA179F4261002E9967 /* HiWorld.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -145,7 +143,6 @@
 				3613018F179F74D1002E9967 /* NetworkConnection.h in CopyFiles */,
 				36130190179F74D1002E9967 /* NetworkManager.h in CopyFiles */,
 				36130191179F74D1002E9967 /* NetworkMonitor.h in CopyFiles */,
-				3613FD53179F57FC002E9967 /* HiWorld.h in CopyFiles */,
 				3613F9B2179F422D002E9967 /* TCNetwork.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,8 +239,6 @@
 		3613F9A9179F422D002E9967 /* libTCNetwork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTCNetwork.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3613F9B0179F422D002E9967 /* TCNetwork-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TCNetwork-Prefix.pch"; sourceTree = "<group>"; };
 		3613F9B1179F422D002E9967 /* TCNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TCNetwork.h; sourceTree = "<group>"; };
-		3613F9BA179F4261002E9967 /* HiWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiWorld.h; sourceTree = "<group>"; };
-		3613F9BB179F4261002E9967 /* HiWorld.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HiWorld.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -410,8 +405,6 @@
 				36130116179F7154002E9967 /* PacketRxTx */,
 				3613010F179F7138002E9967 /* User */,
 				36130108179F7123002E9967 /* Online */,
-				3613F9BA179F4261002E9967 /* HiWorld.h */,
-				3613F9BB179F4261002E9967 /* HiWorld.cpp */,
 				3613F9B1179F422D002E9967 /* TCNetwork.h */,
 				3613F9AF179F422D002E9967 /* Supporting Files */,
 			);
@@ -477,7 +470,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3613F9BC179F4262002E9967 /* HiWorld.cpp in Sources */,
 				3613010D179F7123002E9967 /* OnlineHandler.cpp in Sources */,
 				3613010E179F7123002E9967 /* OnlineInfo.cpp in Sources */,
 				36130114179F7139002E9967 /* PatchInfo.cpp in Sources */,

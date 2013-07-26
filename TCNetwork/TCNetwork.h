@@ -7,5 +7,9 @@
 //
 
 //#import <Foundation/Foundation.h>
-//#include "HiWorld.h"
 
+#include "TCNetwork/PacketSender.h"
+#include "TCNetwork/NetworkManager.h"
+#include "TCNetwork/NetworkMonitor.h"
+#include "TCNetwork/OnlineDefine.h"
+#include "TCNetwork/OnlineHandler.h"
