@@ -16,6 +16,8 @@
 #include "GatePacket.h"
 #include "GamePacket.h"
 
+typedef void (* OnlineErrorHandler) (int, const char *);
+
 //#include "GlobalDefine.h"
 
 //##############################################################################################
@@ -23,6 +25,7 @@
 //##############################################################################################
 
 extern NNetworkManager* GNetworkManager;
+extern OnlineErrorHandler OLErrorHandleCB;
 
 //##############################################################################################
 // Default

@@ -649,6 +649,10 @@ void OLConnectGateServer()
 			if( GNetworkManager->GetErrorCode() != ENEC_PendingConnect )
 			{
 				FnLog("NET: CONNECT, Can not connecting GateServer, Connection is invalid state");
+                if( OLErrorHandleCB ) {
+                    (*OLErrorHandleCB)( -1, " could not connect to GateServer.");
+                }
+                
 
 				if( !GOnlineInfo->CanNetwork() )
 				{
@@ -716,16 +720,27 @@ void OLEventConnectedGateServer( NNetEvent* InEvent )
 				GOnlineInfo->SetNetworkModel( ClientNetworkStatus( ONLINE_NETWORK_CHECK_URL ) );
 				if( !GOnlineInfo->CanNetwork() )
 				{
+                    if( OLErrorHandleCB ) {
+                        (*OLErrorHandleCB)( InEvent->ErrorCode, " could not connect to network");
+                    }
 					// By Network ( WiFi, 3G, ... )
 					///ShowAlertMessage( EMBA_OK, EMCT_Restart, L"%s|| %s..", IUGetLocalText( L"info_connect_error" ), IUGetLocalText( L"info_check_network" ) );
 				}
 				else if( InEvent->ErrorCode == 61 || InEvent->ErrorCode == 10061 )
 				{
+if( OLErrorHandleCB ) {
+                        (*OLErrorHandleCB)( InEvent->ErrorCode, " server problem.");
+                    }
+                    
 					// By Server
 					///ShowAlertMessage( EMBA_OK, EMCT_Inspect, L"%s|| %s..", IUGetLocalText( L"info_server_check" ), IUGetLocalText( L"info_endgame" ) );
 				}
 				else
 				{
+if( OLErrorHandleCB ) {
+                        (*OLErrorHandleCB)( InEvent->ErrorCode, " unknown problem.");
+                    }
+                    
 					// By Route
 					///ShowAlertMessage( EMBA_OK, EMCT_Restart, L"%s|| %s..", IUGetLocalText( L"info_connect_error" ), IUGetLocalText( L"info_error_retry" ) );
 				}
@@ -794,7 +809,10 @@ void OLConnectGameServer()
 			if( GNetworkManager->GetErrorCode() != ENEC_PendingConnect )
 			{
 				FnLog("NET: CONNECT, Can not connecting GameServer, Connection is invalid state");
-
+                if( OLErrorHandleCB ) {
+                    (*OLErrorHandleCB)( -1, " could not connect to GameServer.");
+                }
+                
 				if( !GOnlineInfo->CanNetwork() )
 				{
 					///ShowAlertMessage( EMBA_OK, EMCT_Restart, L"%s||%s", IUGetLocalText( L"info_connect_error" ), IUGetLocalText( L"info_check_network" ) );
