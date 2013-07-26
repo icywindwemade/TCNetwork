@@ -236,6 +236,7 @@ bool NNetworkManager::Start( int InMaxConnections, int InFixedFrameTime, int InL
 
 	//ThreadFlag = 0;
 
+    LogPrintf("NNetworkManager started.");
 	return true;
 }
 
@@ -261,8 +262,8 @@ void NNetworkManager::Stop()
 	LogPrintf( "NNetworkManager::Stop()");
 
 	// Stop thread
-	//void* ReturnCode;
-	//pthread_join( NetThread, &ReturnCode );
+	void* ReturnCode;
+	pthread_join( NetThread, &ReturnCode );
 
 	LogPrintf( "pthread_join( NetThread, &ReturnCode );");
 #endif

@@ -1324,7 +1324,7 @@ void LogPrintf( const char *pszFmt, ... )
 
 	/// NSString *szLog = [NSString stringWithUTF8String:szBuf];
 	/// NSLog( @"%@",szLog );
-    printf( "%s", szBuf);
+    printf( "%s\n", szBuf);
 
 #else // WIN32
 	char szBuf[1024];
